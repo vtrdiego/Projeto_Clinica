@@ -6,8 +6,8 @@ Funcionalidades do sistema:
 
 - Cadastra novos pacientes (nome e telefone).
 - Cria lista de pacientes cadastrados e marca consultas (dia, horário e especialidade).
-- Cria lista de pacientes e exclui paciente e consultas de paciente.
-- Cria lista de consultas agendadas e exclui consultas.
+- Exclui pacientes e automaticamente exclui consultas do paciente excluído.
+- Exclui consultas agendadas.
 - Finaliza o sistema.
 
 Tratamento de erros:
