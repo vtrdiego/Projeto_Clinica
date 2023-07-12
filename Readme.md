@@ -2,7 +2,7 @@
 
 Sistema desenvolvido em linguagem C para utilizar a manipulação de arquivos txt.
 
-  Funcionalidades do sistema:
+Funcionalidades do sistema:
 
 - Cadastra novos pacientes (nome e telefone).
 - Cria lista de pacientes cadastrados e marca consultas (dia, horário e especialidade).
@@ -10,7 +10,7 @@ Sistema desenvolvido em linguagem C para utilizar a manipulação de arquivos tx
 - Cria lista de consultas agendadas e exclui consultas.
 - Finaliza o sistema.
 
-  Tratamento de erros:
+Tratamento de erros:
 
 - Ao digitar uma opção que não exista, o sistema informa 'OPÇÃO INVÁLIDA!'.
 - Sistema verifica se nome inserido é válido (apenas letras e espaços).
@@ -22,7 +22,7 @@ Sistema desenvolvido em linguagem C para utilizar a manipulação de arquivos tx
 - Ao inserir dia e hora, o sistema não aceitará dias maiores que o limite do mês atual (28/29/30/31), ou horários maiores que 23.
 - Ao inserir dia e hora, o sistema verifica se esse dia e horário já foi agendado.
 
-  Obs: 
+Obs: 
 
 - O sistema utiliza a biblioteca time.h para se basear na data e hora atual (Dependendo do computador, pode ocorrer imprecisão nos dados atuais).
 - O sistema utiliza a biblioteca locale.h para colocar o programa em português, e não ocorrer erros de acentos quando o sistema rodar no terminal.
